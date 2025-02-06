@@ -9,13 +9,7 @@ console.log(somma(1, 5));
 
 
 function arrayEven(array:Array<number>){
-    const arrayEven = array.filter(element => element % 2 === 0);
-    let sum = 0;
-    for (let i = 0; i < array.length; i++){
-        sum +=array[i];
-    }
-    
-    return arrayEven
+    return array.filter(element => element % 2 === 0);
 }
 
 function arraySum(array:Array<number>){
